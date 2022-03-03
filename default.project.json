@@ -1,0 +1,38 @@
+{
+  "name": "rbx-repo-template",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "common":   {
+        "$path": "src/shared",
+        "$ignoreUnknownInstances": true,
+
+        "Packages": {
+          "$path": "Packages"
+        }
+      }
+    },
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "Private": {
+        "$path": "src/private"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server":   {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+# License
+/LICENCE
+
+# Lock files
+/*.lock
+
+# Place / model files
+/*.rbxl
+/*.rbxlx
+/*.rbxm
+/*.rbxmx
