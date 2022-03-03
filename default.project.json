@@ -16,20 +16,20 @@
 
     "ServerStorage": {
       "$className": "ServerStorage",
-      "Private": {
+      "private": {
         "$path": "src/private"
       }
     },
 
     "ServerScriptService": {
-      "Server":   {
+      "server":   {
         "$path": "src/server"
       }
     },
 
     "StarterPlayer": {
       "StarterPlayerScripts": {
-        "Client": {
+        "client": {
           "$path": "src/client"
         }
       }
